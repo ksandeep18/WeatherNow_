@@ -23,12 +23,13 @@ cd weathernow
 
 2. Set up a virtual environment:
 python -m venv venv
-source venv/bin/activate # On Windows use venv\Scripts\activate
+If unable to acitvate unrestrict the exceution policy : Enter thi for windows: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+On Windows use venv\Scripts\activate
 
-3. Install dependencies:
+4. Install dependencies:
 pip install -r requirements.txt
 
-4. Set up your API key:
+5. Set up your API key:
 - Add your weather API key to the `.env` file
 
 5. Run the application:
