@@ -18,13 +18,16 @@ WeatherNow is a simple web application that provides real-time weather informati
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/ksandeep18/WeatherNow_.git
+git clone https://github.com/ksandeep18/WeatherNow_.git                    
 cd weathernow
 
-2. Set up a virtual environment:
-python -m venv venv
-If unable to acitvate unrestrict the exceution policy : Enter thi for windows: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-On Windows use venv\Scripts\activate
+ 2. Set up a virtual environment:
+   python -m venv venv
+***If unable to acitvate unrestrict the exceution policy : Enter this command for windows: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser ***
+
+                                                                                                                          
+ 3.Activate Virtual Environment:
+  On Windows use venv\Scripts\activate
 
 4. Install dependencies:
 pip install -r requirements.txt
@@ -32,10 +35,10 @@ pip install -r requirements.txt
 5. Set up your API key:
 - Add your weather API key to the `.env` file
 
-5. Run the application:
+6. Run the application:
 flask run
 
-6. Open your browser and navigate to `http://localhost:8000`
+7. Open your browser and navigate to `http://localhost:8000`
 
 ## Usage
 
